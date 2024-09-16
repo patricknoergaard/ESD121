@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int x, y;
+    int i, j;
 
-    x=5;
-    y=10;
-
-    int z = x+y*3;
-
-    printf("%i\n", z);
+    for (i = 1, i <= 1000; i+=5) {
+        
+    }
 }
