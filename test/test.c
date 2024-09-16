@@ -4,13 +4,14 @@
 int main() {
     int i;
     int j;
+    double result;
 
     for (i = 0; i <= 1000; i+=5) {
         printf("%i\n", i);
     }
 
     for (j = 1; j <=1000; j++) {
-        float x = (float)sqrt(j);
-        printf("%f\n", x);
+        result = sqrt(double(j));
+        printf("%f\n", result);
     }
 }
