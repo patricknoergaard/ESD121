@@ -6,5 +6,7 @@ int main() {
     x=5;
     y=10;
 
-    int y = x+y;
+    int z = x+y;
+
+    printf("%i\n", z);
 }
